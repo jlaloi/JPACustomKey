@@ -1,0 +1,14 @@
+server:
+    port: 9090
+
+spring:
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.1.24/SPRING_TEST
+        username: test
+        password: test
+
+    jpa:
+         show-sql: true
+         hibernate:
+           ddl-auto: update
